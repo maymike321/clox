@@ -1,0 +1,12 @@
+var a = 10;
+
+while (a > 0) {
+	a = a - 1;
+	{
+		var b = a + 3;
+		if (b == 6) {
+			continue;
+		}
+	}
+	print a;
+}
